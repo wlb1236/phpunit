@@ -7,6 +7,7 @@ All notable changes of the PHPUnit 10.0 release series are documented in this fi
 ### Changed
 
 * [#3871](https://github.com/sebastianbergmann/phpunit/issues/3871): Declare return types for `InvocationStubber` methods
+* The `status` attribute of `<test>` elements in the TestDox XML logfile now contains a textual representation instead of a number (`"success"` instead of `"0"`, for instance)
 
 ### Removed
 
